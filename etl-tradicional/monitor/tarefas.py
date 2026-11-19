@@ -20,8 +20,8 @@ PROJETOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "proje
 AGENDA = {
     "etl_vendas":  dict(every=3600, retries=2, timeout=1800),
     "etl_compras": dict(every=7200, timeout=1800),
-    "etl_exemplo": dict(nome="etl_exemplo teste", retries=2, timeout=1800),
-    "etl_loja-brasil_vendas": dict(nome="ETL - Loja Brasil - Vendas", retries=2, timeout=1800)
+    "etl_exemplo": dict(nome="etl_exemplo teste",  retries=4, timeout=1800),
+    "etl_loja_brasil_vendas": dict(nome="ETL - Loja Brasil - Vendas",  retries=2, timeout=1800),
 }
 
 for nome in sorted(os.listdir(PROJETOS)):

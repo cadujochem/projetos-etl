@@ -1,0 +1,2 @@
+Baixar arquivos, e criar um Repositório para o Monitor e Projetos.
+Aqui estão os arquivos base para as aulas.
